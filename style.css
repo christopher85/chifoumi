@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+    height: 100vh;
+}
+
+.valeur{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.resultat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

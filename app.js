@@ -1,7 +1,7 @@
 
 
-var userChoice = prompt("choissez entre pierre feuille ciseaux");
-console.log(userChoice);
+var userChoice = document.querySelector('input')
+// console.log(userChoice);
 
 var computerChoice = Math.random();
 // console.log(computerChoice);
